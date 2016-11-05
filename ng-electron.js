@@ -30,8 +30,7 @@ angular.module('ngElectron', [])
   o.browserWindow   = require('electron').remote.BrowserWindow;
   o.clipboard       = require('electron').remote.clipboard;
   o.dialog          = require('electron').remote.dialog;
-//  o.globalShortcut  = require('electron').remote.global-shortcut;
-  o.globalShortcut  = require('electron').globalShortcut;        
+  o.globalShortcut  = require('electron').remote.globalShortcut;
   o.menu            = require('electron').remote.Menu;
   o.menuItem        = require('electron').remote.MenuItem;
   o.nativeImage     = require('electron').remote.NativeImage;
